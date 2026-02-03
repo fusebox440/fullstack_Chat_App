@@ -1,0 +1,13 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Full Stack Real-time Chat Application built with MERN Stack",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords": ["chat", "real-time", "messaging", "mern", "socket.io"],
+  "author": "Lakshya Khetan <lakshyakhetan00@gmail.com>",
+  "license": "ISC"
+}
